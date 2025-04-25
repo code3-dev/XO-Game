@@ -19,7 +19,7 @@ BEGIN
             VALUE "FileDescription",  "XO Game"
             VALUE "FileVersion",      "1.0.0"
             VALUE "InternalName",     "XOGame"
-            VALUE "LegalCopyright",   "Copyright © 2023"
+            VALUE "LegalCopyright",   "Copyright © 2025"
             VALUE "OriginalFilename", "XOGame.exe"
             VALUE "ProductName",      "XO Game"
             VALUE "ProductVersion",   "1.0.0"
