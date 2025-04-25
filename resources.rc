@@ -1,0 +1,32 @@
+#include <windows.h>
+
+IDI_APPICON ICON "app.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0
+FILEOS          VOS__WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4" // U.S. English, Unicode
+        BEGIN
+            VALUE "CompanyName",      "Hossein Pira"
+            VALUE "FileDescription",  "XO Game"
+            VALUE "FileVersion",      "1.0.0"
+            VALUE "InternalName",     "XOGame"
+            VALUE "LegalCopyright",   "Copyright © 2023"
+            VALUE "OriginalFilename", "XOGame.exe"
+            VALUE "ProductName",      "XO Game"
+            VALUE "ProductVersion",   "1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252 // U.S. English, Unicode
+    END
+END 
